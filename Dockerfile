@@ -1,11 +1,11 @@
 # Utilise l'image officielle de Node.js version 14
-FROM node:14
+FROM node:16
 
 # Définit le répertoire de travail à l'intérieur du conteneur
 WORKDIR /app
 
 # Copie le package.json et le package-lock.json
-COPY package*.json ./
+COPY package.json .
 
 # Installe les dépendances de l'application
 RUN npm install
