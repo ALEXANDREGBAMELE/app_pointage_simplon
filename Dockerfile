@@ -17,7 +17,7 @@ COPY . .
 EXPOSE 3000
 
 # Définit la commande par défaut pour exécuter l'application
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
 
 
 
