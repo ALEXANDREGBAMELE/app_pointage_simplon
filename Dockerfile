@@ -1,5 +1,5 @@
 # Utilise l'image officielle de Node.js version 14
-FROM node:16
+FROM node:16-alpine
 
 # Définit le répertoire de travail à l'intérieur du conteneur
 WORKDIR /app
